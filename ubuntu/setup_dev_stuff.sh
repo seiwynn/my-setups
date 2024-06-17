@@ -13,6 +13,6 @@ git config --global core.editor "gedit --wait --new-window"
 git config --global user.name "seiwynn"
 git config --global user.email "<your_id>+seiwynn@users.noreply.github.com"
 git config --global credential.helper store
-# git credential approve < <(echo "protocol=https\nhost=github.com\nusername=potatomi\npassword=your_token_here")
+# git credential approve < <(echo "protocol=https\nhost=github.com\nusername=seiwynn\npassword=your_token_here")
 
 
