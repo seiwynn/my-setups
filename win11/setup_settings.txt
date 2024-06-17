@@ -1,0 +1,15 @@
+send in data according to file transfer list
+
+change desktop/downloads/etc directory, use regedit if necessary
+
+enable file extensions
+
+disable browser tabs in Alt+Tab behavior
+
+add portable stuff to start menu
+
+add things to startup
+
+https://gist.github.com/seiwynn/e77d0fff3d5b84d63558c43f911ef579
+
+finally: do your customizations! (wallpaper etc.)

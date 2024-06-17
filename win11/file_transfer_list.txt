@@ -1,0 +1,20 @@
+
+misc (literally)
+    ~~D:\__misc__~~
+    ~~D:\softs_portable~~
+
+    ~~qq/wechat chat history~~
+
+survival folders
+    Desktop
+    Documents
+    Downloads
+    Pictures
+    Videos
+
+export projects
+    ~~davinci resolve~~
+    ~~studio one~~
+
+    ~~ffxiv upload keybinds~~
+
