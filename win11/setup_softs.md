@@ -79,6 +79,7 @@ drawing
 video (audio) recording
 - obs
   - obs blur filter
+  - obs [reaplugs](https://www.reaper.fm/reaplugs/) - install in default location so that obs can [auto scan](https://obsproject.com/kb/vst-2-x-plugin-filter)
   - [bilibili danmaku tool](https://reito.fun/blive) - [github page](https://github.com/reitovo)
   - blivechat
   - snaz
