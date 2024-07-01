@@ -116,6 +116,7 @@ ffxiv
 - dalamud
 - makeplace (housing decor simulator)
 - xiv zoom
+- teamcraft desktop app
 
 simulators
 - dolphin
