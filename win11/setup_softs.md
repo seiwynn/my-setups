@@ -97,6 +97,7 @@ subtitles & compressing
 
 playing videos
 - potplayer
+  - turn of auto-update: [this link](https://superuser.com/questions/1758661/how-to-disable-potplayer-checking-for-updates-at-start-up)
 
 ## Code
 base
