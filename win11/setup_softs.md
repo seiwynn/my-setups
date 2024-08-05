@@ -84,6 +84,7 @@ video (audio) recording
   - blivechat
   - snaz
 - studio one
+- ultimate voice removal 5
 
 video editing
 - davinci
