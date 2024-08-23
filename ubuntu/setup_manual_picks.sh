@@ -108,7 +108,6 @@ sudo apt-get update
 sudo apt-get install jenkins
 
 # rufus (but in ubuntu)
-sudo add-apt-repository ppa:gezakovacs/ppa
-sudo apt-get update
-sudo apt-get install unetbootin
+# do NOT use unetbootin, it won't work w/ windows
+sudo apt install gparted
 
