@@ -109,5 +109,7 @@ sudo apt-get install jenkins
 
 # rufus (but in ubuntu)
 # do NOT use unetbootin, it won't work w/ windows
+# use this for a simple rufus: https://www.ventoy.net/en/doc_linux_webui.html
+# use this for making dist partitions
 sudo apt install gparted
 
