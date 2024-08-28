@@ -108,8 +108,9 @@ sudo apt-get update
 sudo apt-get install jenkins
 
 # rufus (but in ubuntu)
-# do NOT use unetbootin, it won't work w/ windows
-# use this for a simple rufus: https://www.ventoy.net/en/doc_linux_webui.html
 # use this for making dist partitions
 sudo apt install gparted
+# for windows: woeusb
+# ventoy seems to work, but not as stable as woeusb
+# other linux "rufus"es that won't work on windows: unetbootin / etcher / popscicle
 
