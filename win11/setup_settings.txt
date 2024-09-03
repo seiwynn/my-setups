@@ -10,6 +10,6 @@ add portable stuff to start menu
 
 add things to startup
 
-https://gist.github.com/seiwynn/e77d0fff3d5b84d63558c43f911ef579
+setup your software (check setup_softs.md)
 
 finally: do your customizations! (wallpaper etc.)
