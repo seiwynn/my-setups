@@ -7,10 +7,26 @@
 # running the entire script should be fine, you'll end up the same as me though.
 
 # have to manually install/config these:
-# swap mouse in gui
+# swap mouse in gnome-tweaks
+# change mouse size to 1 size larger, in accessibility settings
 # install edge, set edge to default browser
 # sarasa gothic font
-# change vscode font settings
+# change vscode font settings (or just use synced settings)
+
+sudo apt update
+
+
+# gedit (because it doesn't come automatically now?)
+sudo apt install gedit
+
+
+# dracula terminal
+# you still need to do this, even if you use zsh!!
+sudo apt install dconf-cli
+sudo apt install git
+git clone https://github.com/dracula/gnome-terminal
+cd gnome-terminal
+./install.sh
 
 
 # mouse swap
@@ -21,7 +37,9 @@ tar -xvf Bibata-Modern-Ice.tar.gz
 sudo mv Bibata-* /usr/share/icons/
 # Install to all users
 sudo apt install gnome-tweaks
-# just pick it manually
+# just pick it manually in the tweaks gui
+# Command: gnome-tweaks 
+
 
 # install Chinese input (Ubuntu)
 sudo apt-get install language-pack-gnome-zh-hans
@@ -30,22 +48,14 @@ sudo apt-get install ibus-pinyin
 ibus-daemon --xim replace
 # enable on keyboard
 gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('ibus', 'libpinyin')]"
+# open Settings - Language and Region, so that Ubuntu can help you install the full language pack
+# restart after installing and you should be fine
 
-# dracula terminal
-sudo apt-get install dconf-cli
-sudo apt-get install git
-git clone https://github.com/dracula/gnome-terminal
-cd gnome-terminal
-./install.sh
 
-# snap store and flatpak
+# snap store
 sudo snap install snap-store
-sudo apt install flatpak
-sudo apt install gnome-software-plugin-flatpak
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-
-# install vscode
+# vscode
 sudo snap install --classic code
 
 # fira code
@@ -58,33 +68,20 @@ sudo apt install fonts-firacode
 # utility software
 sudo apt install libreoffice
 
-# this deserves a separate part
+# flameshot (needs separate config for keybinds and startup)
 sudo apt install flameshot
 # keybind config:
 # Settings > Keyboard Shortcuts > Add Custom Shortcut
 # Command: flameshot gui
+###########
+# startup config: 
+# Command: flameshot
 
 # remote desktop
 # just use default, lxde looks super ugly
 
 # clipboard mgmt
 sudo apt install parcellite
-
-# my countdown clock
-sudo snap install ktimer
-
-# obs
-sudo add-apt-repository ppa:obsproject/obs-studio
-sudo apt install obs-studio
-
-# lib fixes for steam
-# why does steam require an extra library?
-# https://askubuntu.com/questions/602637/you-are-missing-the-following-32-bit-libraries-and-steam-may-not-run-libc-so-6
-sudo apt-get install libc6-i386
-# https://github.com/ValveSoftware/steam-for-linux/issues/7284
-sudo dpkg --add-architecture i386
-sudo apt install libgl1-mesa-dri:i386 libgl1:i386
-sudo apt-get install --reinstall libgl1-mesa-glx:i386
 
 # tree because its super useful
 sudo apt install tree
