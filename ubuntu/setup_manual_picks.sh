@@ -1,8 +1,10 @@
 
 
 # things you might want, but needs to be manually installed:
+# aka nice-to-haves
 # typora
 # zoom
+# discord
 
 
 # flatpak
