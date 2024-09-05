@@ -6,6 +6,10 @@
 # zoom
 # discord
 
+# dracula theme: 
+# I'd say zsh and terminal are the main ones that I need it
+# vs code / intellij default feels a bit better
+
 
 # flatpak
 # I'd say snap store gui is a bit more useful than flatpak...a bit
