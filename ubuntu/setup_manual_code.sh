@@ -114,3 +114,8 @@ sudo apt install gparted
 # ventoy seems to work, but not as stable as woeusb
 # other linux "rufus"es that won't work on windows: unetbootin / etcher / popscicle
 
+# postman
+# sudo apt install snapd
+sudo snap install postman
+
+
